@@ -1,1 +1,12 @@
-Hello World
+git config --global user.name "Kannadasan"
+git config --global user.email "forlearningkannadasan@gmail.com"
+git config --global -l
+git config -l
+git init
+git status
+git add file.txt
+git log
+git commit -m "initial commit"
+git remote add test https://github.com/LFKannadasan/test
+git branch -M main
+git push -u main
